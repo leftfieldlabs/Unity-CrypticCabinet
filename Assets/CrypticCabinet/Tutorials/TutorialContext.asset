@@ -17,6 +17,7 @@ MonoBehaviour:
   _icon: {fileID: 0}
   _priority: 1000
   _allowWithoutContextFilter: 1
+  _isStartupContext: 1
   showPageGroupTitle: 1
   _pages: []
   _scriptableObjectPages: []
