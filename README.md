@@ -12,6 +12,7 @@ Before you dive in, ensure you’ve downloaded and installed the necessary packa
 - [Meta XR Core SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169): This package includes core features for mixed reality development such as Passthrough, Anchors, and Scene to help you create engaging and immersive experiences. 
 - [Meta XR Platform SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-platform-sdk-262366): This package enables you to create social immersive experiences that support matchmaking, in-app purchases, downloadable content (DLC), cloud storage, and more. 
 - [Meta XR Interaction SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014): This package contains the components unique to Interaction SDK that are used for controller and hand interactions and body pose detection.
+- [Meta XR Simulator](https://assetstore.unity.com/packages/tools/integration/meta-xr-simulator-266732): This lightweight XR runtime enables you to simulate Meta Quest headsets and features on the API level so you can iterate and test your experiences without a physical device. 
 - [Photon Fusion](https://www.photonengine.com/fusion#): Seamlessly support multiplayer modes by implementing this networking solution to handle and route networking traffic in shared user experiences. 
 - [UniTask](https://github.com/Cysharp/UniTask?tab=readme-ov-file): This package provides an efficient allocation-free async/await integration for Unity.
 
