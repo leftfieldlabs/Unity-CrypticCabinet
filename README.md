@@ -44,7 +44,7 @@ Discover some of the mechanics, features, and techniques used to deliver this un
 - [Key & UV Bulb](https://github.com/leftfieldlabs/Unity-CrypticCabinet/blob/main/Documentation/FeatureOverview.md#key--uv-bulb): The game’s UV bulb and key combine two interaction modes: The first mode enables users to freely manipulate these objects by grabbing, rotating, and moving them, and the second mode locks the objects in position so they can only be rotated around a single axis. 
 
 
-## How to run the project in Unity
+# How to run the project in Unity
 
 1. [Configure the project](./Documentation/ProjectConfiguration.md) with Meta Quest and Photon
 2. Make sure you're using  *Unity 2022.3.16f1* or newer.
