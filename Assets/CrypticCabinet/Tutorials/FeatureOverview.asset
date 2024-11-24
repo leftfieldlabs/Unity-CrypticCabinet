@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6406cf99f3eda9543b76052362849a20, type: 3}
+  m_Name: FeatureOverview
+  m_EditorClassIdentifier: 
+  _windowTitle: Feature Overview
+  _logo: {fileID: 0}
+  _icon: {fileID: 0}
+  _priority: 2000
+  _allowWithoutContextFilter: 1
+  _isStartupContext: 0
+  showPageGroupTitle: 1
+  _pages: []
+  _scriptableObjectPages: []
+  _defaultPage: 
+  _parentContexts: []
+  tutorialContext: Cryptic Cabinet
+  pathToRootDoc: ./Documentation/FeatureOverview.md
+  pageConfigs:
+  - sectionTitle: Room Setup
+    showSectionInContext: 0
+    showSectionAsChild: 1
+  - sectionTitle: 'Networking:'
+    showSectionInContext: 0
+    showSectionAsChild: 1
+  - sectionTitle: Rope
+    showSectionInContext: 1
+    showSectionAsChild: 1
+  - sectionTitle: LUT
+    showSectionInContext: 0
+    showSectionAsChild: 1
+  - sectionTitle: Camera darkens when inside objects
+    showSectionInContext: 0
+    showSectionAsChild: 1
+  - sectionTitle: Safe Dials
+    showSectionInContext: 0
+    showSectionAsChild: 1
+  - sectionTitle: Clock
+    showSectionInContext: 0
+    showSectionAsChild: 1
+  - sectionTitle: Key & UV Bulb
+    showSectionInContext: 0
+    showSectionAsChild: 1
