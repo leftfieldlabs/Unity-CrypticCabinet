@@ -17,7 +17,7 @@ Before you dive in, ensure you’ve downloaded and installed the necessary packa
 - [UniTask](https://github.com/Cysharp/UniTask?tab=readme-ov-file): This package provides an efficient allocation-free async/await integration for Unity.
 
 # Learn
-Explore the Meta Horizon OS capabilities powering rich, shared mixed reality experiences in Cryptic Cabinet: 
+Explore the Meta Horizon OS capabilities powering rich, shared mixed reality experiences in Cryptic Cabinet. 
 
 - [Scene](https://developers.meta.com/horizon/documentation/unity/unity-scene-overview/): Index and query an up-to-date representation of the physical world. Scene enables Cryptic Cabinet to support rich interactions between users’, virtual objects, and their physical space.  
 - [Passthrough](https://developers.meta.com/horizon/documentation/unity/unity-passthrough/): See your physical space in full, rich color. Passthrough API provides a real-time and perceptually comfortable 3D visualization of the physical world in the Meta Quest headsets so users can see and navigate their surroundings.
