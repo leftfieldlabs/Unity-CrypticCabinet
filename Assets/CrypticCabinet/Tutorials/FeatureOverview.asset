@@ -51,7 +51,7 @@ MonoBehaviour:
       guid: 
       instanceID: 0
   - sectionTitle: Rope
-    showSectionInContext: 1
+    showSectionInContext: 0
     showSectionAsChild: 1
     highlightReference:
       referenceType: 0
