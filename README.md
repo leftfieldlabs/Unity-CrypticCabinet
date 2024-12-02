@@ -1,14 +1,13 @@
 # Cryptic Cabinet
 ![Cryptic Cabinet Banner](./Documentation/Images/logo/CoverArt.png "Cryptic Cabinet")
 
-Cryptic Cabinet is a multiplayer escape room game for Meta Quest headsets that demonstrates how you can turn any room into a unique mixed reality experience. In this tutorial, you’ll see firsthand how the app adapts to nearly room size and presents possibilities to create delightful mixed reality experiences through the use of capabilities like Scene, Passthrough, Shared Spatial Anchors, Colocation, Interaction SDK, and Passthrough Styling.
+Cryptic Cabinet is an escape room game for Meta Quest headsets that demonstrates how to create mixed reality multiplayer experiences that dynamically understand and adapt to nearly any room size. In this tutorial, you’ll see firsthand how the app adapts to the physical environment and presents possibilities to create delightful mixed reality experiences through the use of capabilities like Scene, Passthrough, Shared Spatial Anchors, Colocation, Interaction SDK, and Passthrough Styling. 
 
-This codebase is available both as a reference and as a template for MR projects.
+This codebase is available as both a reference and template for mixed reality projects. You can also test the game on the [Meta Horizon Store](https://www.meta.com/experiences/6858450927578454/).
 
 # Before you get started
-Before you dive in, ensure you’ve downloaded and installed the necessary packages to run Cryptic Cabinet on Unity. 
+Get familiar with the packages and tools that enable Cryptic Cabinet to support rich multiplayer experiences and dynamically adapt to users’ physical environment. 
 
-- [Unity 2022.3.16f1 or newer](https://unity.com/download): If necessary, update your Unity version to support Cryptic Cabinet.  
 - [Meta XR Core SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169): This package includes core features for mixed reality development such as Passthrough, Anchors, and Scene to help you create engaging and immersive experiences. 
 - [Meta XR Platform SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-platform-sdk-262366): This package enables you to create social immersive experiences that support matchmaking, in-app purchases, downloadable content (DLC), cloud storage, and more. 
 - [Meta XR Interaction SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014): This package contains the components unique to Interaction SDK that are used for controller and hand interactions and body pose detection.
@@ -19,7 +18,7 @@ Before you dive in, ensure you’ve downloaded and installed the necessary packa
 # Learn
 Explore the Meta Horizon OS capabilities powering rich, shared mixed reality experiences in Cryptic Cabinet. 
 
-- [Scene](https://developers.meta.com/horizon/documentation/unity/unity-scene-overview/): Index and query an up-to-date representation of the physical world. Scene enables Cryptic Cabinet to support rich interactions between users’, virtual objects, and their physical space.  
+- [Scene](https://developers.meta.com/horizon/documentation/unity/unity-scene-overview/): Leverage Mixed Reality Utility Kit on top of the Scene API to quickly index and query an up-to-date representation of the physical world that you can use to support mixed reality. Scene enables Cryptic Cabinet to support dynamic interactions between users, virtual objects, and their physical space. 
 - [Passthrough](https://developers.meta.com/horizon/documentation/unity/unity-passthrough/): See your physical space in full, rich color. Passthrough API provides a real-time and perceptually comfortable 3D visualization of the physical world in the Meta Quest headsets so users can see and navigate their surroundings.
 - [Shared Spatial Anchors](https://developers.meta.com/horizon/documentation/unity/unity-shared-spatial-anchors/): Create local multiplayer experiences for users in the same room. Shared Spatial Anchors enables a shared, world-locked frame of reference for many users playing Cryptic Cabinet together.   
 - [Colocation](https://developers.meta.com/horizon/documentation/unity/unity-set-up-colocation-package/): Enable users to jump into the action together in the same physical space. Using Shared Spatial Anchors, colocation supports sharing physical environment information between headsets to enable accurate virtual positioning so players have a consistent, shared perspective of their surroundings. 
@@ -121,6 +120,7 @@ Then, clone this repo using the "Code" button above, or this command:
 git clone https://github.com/oculus-samples/Unity-CrypticCabinet.git
 ```
 
+## Code documentation
 
 Within the repo there's detailed Doxygen docs for the code in [Documentation/docs/html/index.html](./Documentation/docs/html/index.html).
 This can be opened in a web browser once the code has been cloned.
@@ -135,16 +135,15 @@ This project makes use of the following plugins and software:
 - [Meta XR Platform SDK](https://npm.developer.oculus.com/-/web/detail/com.meta.xr.sdk.platform)
 - [Meta XR Interaction SDK](https://npm.developer.oculus.com/-/web/detail/com.meta.xr.sdk.interaction)
 - [Meta XR Simulator](https://npm.developer.oculus.com/-/web/detail/com.meta.xr.simulator) (Used for test multi-user)
+- [Mixed Reality Utility Kit](https://assetstore.unity.com/packages/tools/integration/meta-mr-utility-kit-272450)
 - [Photon Fusion](https://www.photonengine.com/fusion)
 - [UniTask](https://github.com/Cysharp/UniTask)
 
 The following is required to test this project within Unity:
-- [The Oculus App](https://www.meta.com/gb/quest/setup/)
+- [Meta Quest Link app](https://www.meta.com/quest/setup/)
 
 The majority of Cryptic Cabinet is licensed under [MIT LICENSE](./LICENSE), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and [Photon SDK](./Assets/Photon/LICENSE), are licensed under their respective licensing terms.
 
 See the [CONTRIBUTING](./CONTRIBUTING.md) file for how to help out.
 
 This project was built using the [Unity engine](https://unity.com/) with [Photon Fusion](https://doc.photonengine.com/fusion/current/getting-started/fusion-intro).
-
-Test the game on [AppLab - Cryptic Cabinet](https://www.meta.com/experiences/6858450927578454/).
