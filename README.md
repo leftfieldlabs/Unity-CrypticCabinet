@@ -1,6 +1,7 @@
 # Cryptic Cabinet
 ![Cryptic Cabinet Banner](./Documentation/Images/logo/CoverArt.png "Cryptic Cabinet")
 
+# About
 Cryptic Cabinet is an escape room game for Meta Quest headsets that demonstrates how to create mixed reality multiplayer experiences that dynamically understand and adapt to nearly any room size. In this tutorial, you’ll see firsthand how the app adapts to the physical environment and presents possibilities to create delightful mixed reality experiences through the use of capabilities like Scene, Passthrough, Shared Spatial Anchors, Colocation, Interaction SDK, and Passthrough Styling. 
 
 This codebase is available as both a reference and template for mixed reality projects. You can also test the game on the [Meta Horizon Store](https://www.meta.com/experiences/6858450927578454/).
