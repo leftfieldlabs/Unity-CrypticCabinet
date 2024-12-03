@@ -24,6 +24,7 @@ MonoBehaviour:
   _defaultPage: 
   _parentContexts: []
   tutorialConfig: {fileID: 11400000, guid: 66782bc3cd770c0488ec65525c3adbf8, type: 2}
+  showBanner: 1
   pathToRootDoc: ./README.md
   pageConfigs:
   - sectionTitle: Cryptic Cabinet

@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: Tutorial Config
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Cryptic Cabinet
-  imagePath: ./Documentation/Images/logo/CoverArt.png
-  image: {fileID: 0}
+  bannerConfig:
+    imagePathOrURL: ./Documentation/Images/logo/CoverArt.png
+    title: Welcome to Cryptic Cabinet
+    description: This is the tutorial's subtitle.
+    height: 120
+    textColor: {r: 1, g: 1, b: 1, a: 1}
