@@ -16,9 +16,8 @@ MonoBehaviour:
   bannerConfig:
     imagePathOrURL: ./Documentation/Images/logo/HeaderImage.jpg
     title: Welcome to Cryptic Cabinet
-    description: 'This is the tutorial''s subtitle.
+    description: '<Subtitle>
 
-      I don''t really know what
-      to write here, so here we are!'
+      <Subtitle Line Two>'
     height: 192
     textColor: {r: 1, g: 1, b: 1, a: 1}
