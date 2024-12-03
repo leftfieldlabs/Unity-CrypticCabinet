@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6406cf99f3eda9543b76052362849a20, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  _windowTitle: Readme
+  _windowTitle: Welcome
   _logo: {fileID: 0}
   _icon: {fileID: 0}
   _priority: 1000
@@ -28,6 +28,18 @@ MonoBehaviour:
   pathToRootDoc: ./README.md
   pageConfigs:
   - sectionTitle: Cryptic Cabinet
+    showSectionInContext: 0
+    showSectionAsChild: 0
+    highlightReference:
+      referenceType: 0
+      obj: {fileID: 0}
+      classType: 
+      scene: {fileID: 0}
+      name: 
+      path: 
+      guid: 
+      instanceID: 0
+  - sectionTitle: About
     showSectionInContext: 1
     showSectionAsChild: 0
     highlightReference:
