@@ -143,7 +143,7 @@ This project makes use of the following plugins and software:
 The following is required to test this project within Unity:
 - [Meta Quest Link app](https://www.meta.com/quest/setup/)
 
-The majority of Cryptic Cabinet is licensed under [MIT LICENSE](./LICENSE), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and [Photon SDK](./Assets/Photon/LICENSE), are licensed under their respective licensing terms.
+The majority of Cryptic Cabinet is licensed under [MIT LICENSE](./LICENSE.md), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and [Photon SDK](./Assets/Photon/LICENSE.md), are licensed under their respective licensing terms.
 
 See the [CONTRIBUTING](./CONTRIBUTING.md) file for how to help out.
 
