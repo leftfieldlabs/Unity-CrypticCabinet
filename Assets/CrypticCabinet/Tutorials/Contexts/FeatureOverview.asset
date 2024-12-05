@@ -24,104 +24,33 @@ MonoBehaviour:
   _defaultPage: 
   _parentContexts: []
   tutorialConfig: {fileID: 11400000, guid: 66782bc3cd770c0488ec65525c3adbf8, type: 2}
+  showBanner: 0
   pathToRootDoc: ./Documentation/FeatureOverview.md
   pageConfigs:
   - sectionTitle: Room Setup
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
-  - sectionTitle: 'Networking:'
+  - sectionTitle: Networking
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   - sectionTitle: Rope
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   - sectionTitle: LUT
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   - sectionTitle: Camera darkens when inside objects
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   - sectionTitle: Safe Dials
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   - sectionTitle: Clock
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   - sectionTitle: Key & UV Bulb
     showSectionInContext: 0
     showSectionAsChild: 1
-    highlightReference:
-      referenceType: 0
-      obj: {fileID: 0}
-      classType: 
-      scene: {fileID: 0}
-      name: 
-      path: 
-      guid: 
-      instanceID: 0
   highlightReference:
     referenceType: 0
     obj: {fileID: 0}

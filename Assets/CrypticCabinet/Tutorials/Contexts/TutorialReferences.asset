@@ -38,7 +38,8 @@ MonoBehaviour:
       guid: 
       instanceID: 0
   - header: Game Manager
-    description: And now I am highlighting a GameObject within the scene
+    description: "And now I am highlighting a GameObject within the scene\nThere's
+      a lot of room for text\neven here \nand more"
     reference:
       referenceType: 5
       obj: {fileID: 11500000, guid: d3367220e467a40ad882c2eac2289d9a, type: 3}
