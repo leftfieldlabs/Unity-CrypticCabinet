@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee262462c8042e840a3146c602914c9a, type: 3}
   m_Name: TutorialReferences
   m_EditorClassIdentifier: 
-  _windowTitle: Walkthrough
+  _windowTitle: Main Scene Walkthrough
   _logo: {fileID: 0}
   _icon: {fileID: 0}
   _priority: 5000
@@ -26,8 +26,8 @@ MonoBehaviour:
   tutorialConfig: {fileID: 11400000, guid: 66782bc3cd770c0488ec65525c3adbf8, type: 2}
   showBanner: 1
   references:
-  - header: Asset Path to Scene
-    description: This is how I highlighted a scene object
+  - header: Main Scene
+    description: 
     reference:
       referenceType: 0
       obj: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
@@ -37,15 +37,84 @@ MonoBehaviour:
       path: Assets/CrypticCabinet/Scenes/MainScene.unity
       guid: 
       instanceID: 0
-  - header: Game Manager
-    description: "And now I am highlighting a GameObject within the scene\nThere's
-      a lot of room for text\neven here \nand more"
+  - header: ColocationManager
+    description: Responsible for colocating multiple players within the same room,
+      and to keep a single player aligned to the real room throughout the gameplay.
+      For more information, check the documentation inside the ColocationManager
+      script.
     reference:
       referenceType: 5
-      obj: {fileID: 11500000, guid: d3367220e467a40ad882c2eac2289d9a, type: 3}
+      obj: {fileID: 0}
+      classType: 
+      scene: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
+      name: CrypticCabinetLogic/ColocationManager
+      path: 
+      guid: 
+      instanceID: 0
+  - header: ConnectionManager
+    description: Handles the Photon Fusion connection workflows for single and multiplayer
+      sessions. The PhotonConnector logic showcases how a shared multiplayer session
+      is handled via Photon Fusion, how the creation of shared rooms and lobbies
+      work, and how the connection states can be handled accordingly.
+    reference:
+      referenceType: 5
+      obj: {fileID: 0}
+      classType: 
+      scene: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
+      name: CrypticCabinetLogic/ConnectionManager
+      path: 
+      guid: 
+      instanceID: 0
+  - header: PassthroughManager
+    description: Responsible for the Color LUT effects applied to the passthrough
+      of the supported Quest headsets. During the gameplay, this feature is showcased
+      when interacting with the UV machine puzzle and the light beam hitting the
+      glass globe in the Orrery puzzle. Additional functions are implemented inside
+      the PassthroughConfigurator and PassthroughChanger as an example of customized
+      effects using Meta's Color LUT APIs from the SDK.
+    reference:
+      referenceType: 5
+      obj: {fileID: 0}
+      classType: 
+      scene: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
+      name: CrypticCabinetLogic/PassthroughManager
+      path: 
+      guid: 
+      instanceID: 0
+  - header: SceneManagement
+    description: Holds the logic to use the Scene Understanding API from the SDK
+      to configure the virtual objects placements around the real room of the player,
+      allowing their tweaking when desired.
+    reference:
+      referenceType: 5
+      obj: {fileID: 0}
+      classType: 
+      scene: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
+      name: CrypticCabinetLogic/SceneManagement
+      path: 
+      guid: 
+      instanceID: 0
+  - header: GameManager
+    description: Controls the game phases flow of the gameplay.
+    reference:
+      referenceType: 5
+      obj: {fileID: 0}
       classType: 
       scene: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
       name: CrypticCabinetLogic/GameManagement/GameManager
+      path: 
+      guid: 
+      instanceID: 0
+  - header: Player
+    description: Holds the logic for all the interactions a player can perform across
+      the whole experience. This showcases how the Meta Interaction SDK can be used
+      to simplify usability for XR scenarios.
+    reference:
+      referenceType: 5
+      obj: {fileID: 0}
+      classType: 
+      scene: {fileID: 102900000, guid: 3af85a4315372864497ae03e9e1478a6, type: 3}
+      name: Player
       path: 
       guid: 
       instanceID: 0
