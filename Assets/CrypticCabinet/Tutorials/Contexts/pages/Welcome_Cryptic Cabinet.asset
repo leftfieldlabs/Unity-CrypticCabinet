@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Welcome_Cryptic Cabinet
+  m_EditorClassIdentifier: 
+  _displayName: Welcome
+  _prefix: 
+  _context: {fileID: 11400000, guid: 9e4b604f5e4997848960f9141fcfedef, type: 2}
+  _markdownFile: {fileID: 0}
+  _priority: 1000
+  overrideMarkdownText: "# About\r\nCryptic Cabinet is an escape room game for Meta
+    Quest headsets that demonstrates how to create mixed reality multiplayer experiences
+    that dynamically understand and adapt to nearly any room size. In this tutorial,
+    you\u2019ll see firsthand how the app adapts to the physical environment and
+    presents possibilities to create delightful mixed reality experiences through
+    the use of capabilities like Scene, Passthrough, Shared Spatial Anchors, Colocation,
+    Interaction SDK, and Passthrough Styling. \r\n\r\nThis codebase is available
+    as both a reference and template for mixed reality projects. You can also test
+    the game on the <a href=\"https://www.meta.com/experiences/6858450927578454/\">Meta
+    Horizon Store</a>.\r\n\r\n\r\n# Before you get started\r\nGet familiar with the
+    packages and tools that enable Cryptic Cabinet to support rich multiplayer experiences
+    and dynamically adapt to users\u2019 physical environment. \r\n\r\n- <a href=\"https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169\">Meta
+    XR Core SDK</a>: This package includes core features for mixed reality development
+    such as Passthrough, Anchors, and Scene to help you create engaging and immersive
+    experiences. \r\n- <a href=\"https://assetstore.unity.com/packages/tools/integration/meta-xr-platform-sdk-262366\">Meta
+    XR Platform SDK</a>: This package enables you to create social immersive experiences
+    that support matchmaking, in-app purchases, downloadable content (DLC), cloud
+    storage, and more. \r\n- <a href=\"https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014\">Meta
+    XR Interaction SDK</a>: This package contains the components unique to Interaction
+    SDK that are used for controller and hand interactions and body pose detection.\r\n-
+    <a href=\"https://assetstore.unity.com/packages/tools/integration/meta-xr-simulator-266732\">Meta
+    XR Simulator</a>: This lightweight XR runtime enables you to simulate Meta Quest
+    headsets and features on the API level so you can iterate and test your experiences
+    without a physical device. \r\n- <a href=\"https://www.photonengine.com/fusion#\">Photon
+    Fusion</a>: Seamlessly support multiplayer modes by implementing this networking
+    solution to handle and route networking traffic in shared user experiences. \r\n-
+    <a href=\"https://github.com/Cysharp/UniTask?tab=readme-ov-file\">UniTask</a>:
+    This package provides an efficient allocation-free async/await integration for
+    Unity.\r\n\r\n\r\n# Learn\r\nExplore the Meta Horizon OS capabilities powering
+    rich, shared mixed reality experiences in Cryptic Cabinet. \r\n\r\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-scene-overview/\">Scene</a>:
+    Leverage Mixed Reality Utility Kit on top of the Scene API to quickly index and
+    query an up-to-date representation of the physical world that you can use to
+    support mixed reality. Scene enables Cryptic Cabinet to support dynamic interactions
+    between users, virtual objects, and their physical space. \r\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-passthrough/\">Passthrough</a>:
+    See your physical space in full, rich color. Passthrough API provides a real-time
+    and perceptually comfortable 3D visualization of the physical world in the Meta
+    Quest headsets so users can see and navigate their surroundings.\r\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-shared-spatial-anchors/\">Shared
+    Spatial Anchors</a>: Create local multiplayer experiences for users in the same
+    room. Shared Spatial Anchors enables a shared, world-locked frame of reference
+    for many users playing Cryptic Cabinet together.   \r\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-set-up-colocation-package/\">Colocation</a>:
+    Enable users to jump into the action together in the same physical space. Using
+    Shared Spatial Anchors, colocation supports sharing physical environment information
+    between headsets to enable accurate virtual positioning so players have a consistent,
+    shared perspective of their surroundings. \r\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/\">Interaction
+    SDK</a>: Power rich, dynamic interactions between users and their virtual environment.
+    This SDK provides a suite of components that support intuitive navigation and
+    interactions like grabbing, poking, teleportation, and more using your controller
+    or hands. In Cryptic Cabinet, these interactions enable players to interact with
+    virtual elements and progress through the escape room.  \r\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-customize-passthrough-styling/\">Passthrough
+    Styling</a>: Add your unique touch to the headset\u2019s visual feed. Color mapping
+    allows you to customize the output color by adjusting contrast, brightness, saturation,
+    and more.\r\n\r\n\r\n# Mechanics and Features\r\n\r\nDiscover some of the mechanics,
+    features, and techniques used to deliver this unique and engaging multiplayer
+    experience. For more information, visit the <a href=\"./Documentation/FeatureOverview.md\">Feature
+    Overview</a> page.\r\n\r\n    ![alt text](./Documentation/Images/UVbulb_screw.gif){style=\"width:30%\"}\r\n   
+    ![alt text](./Documentation/Images/Safe.gif){style=\"width:30%\"}\r\n    ![alt
+    text](./Documentation/Images/Key.gif){style=\"width:30%\"}\r\n\r\n\r\n- <a href=\"./Documentation/FeatureOverview.md#room-setup\">Room
+    Setup</a>: Using returned scene primitives via Scene API, a 3D grid of cells
+    is generated to cover the entire room and track where scene objects are placed
+    so they don\u2019t overlap with real world objects. You can preview the scene
+    after cells are generated. \r\n- <a href=\"./Documentation/FeatureOverview.md#networking\">Networking</a>:
+    Using Photon Fusion, Cryptic Cabinet provides the game host with a room code
+    that they can share with other users and enable them to join.\r\n- <a href=\"./Documentation/FeatureOverview.md#rope\">Rope</a>:
+    Through Interaction SDK, users can grab the in-game rope at any point along its
+    length using one or two hands, with grabbed positions being synchronized with
+    other users. Realistic collisions are supported to push rope nodes away from
+    each other and from scene objects. \r\n- <a href=\"./Documentation/FeatureOverview.md#lut\">LUT</a>:
+    Using Passthrough Styling, the Passthrough camera feed is darkened when a user
+    activates the game\u2019s UV light or Orrery projection to deliver the effect
+    of being in a dark room. A central manager ensures the effect is replicated for
+    all users.  \r\n- <a href=\"./Documentation/FeatureOverview.md#camera-darkens-when-inside-objects\">Camera
+    darkens when inside objects</a>: When a user puts their head inside virtual objects,
+    the camera darkens to replicate a more realistic perspective. Passthrough is
+    disabled and enabled as users look in and out of virtual objects. \r\n- <a href=\"./Documentation/FeatureOverview.md#safe-dials\">Safe
+    Dials</a>: By putting a trigger collider on the index finger of a user\u2019s
+    hand, users can seamlessly swipe the game\u2019s safe dial up and down to crack
+    the safe\u2019s code. \r\n- <a href=\"./Documentation/FeatureOverview.md#clock\">Clock</a>:
+    Through the use of the OneGrabRotateTransformer feature, users can rotate a handle
+    that subsequently rotates the game\u2019s clock hands to detect when the user
+    has selected the correct time, opening the clock door. \r\n- <a href=\"./Documentation/FeatureOverview.md#key--uv-bulb\">Key
+    & UV Bulb</a>: The game\u2019s UV bulb and key combine two interaction modes:
+    The first mode enables users to freely manipulate these objects by grabbing,
+    rotating, and moving them, and the second mode locks the objects in position
+    so they can only be rotated around a single axis. \r\n\r\n\r\n\r\n# How to run
+    the project in Unity\r\n\r\n1. <a href=\"./Documentation/ProjectConfiguration.md\">Configure
+    the project</a> with Meta Quest and Photon\r\n2. Make sure you're using  *Unity
+    2022.3.16f1* or newer.\r\n3. Load the scene Assets/CrypticCabinet/Scenes/MainScene.unity\r\n4.
+    To test in Editor you will need to use Quest Link:\r\n    \r\n      <b>Quest
+    Link</b>\r\n\r\n    - In the Oculus desktop app navigate to the Beta Settings
+    Settings -> Beta and enable the following settings:\r\n      - Developer runtime
+    features \r\n      - Pass-through over Oculus Link\r\n      - Share point cloud
+    over Oculus Link\r\n    - Enable Quest Link:\r\n      - Put on your headset and
+    navigate to \"Quick Settings\"; select \"Quest Link\" (or \"Quest Air Link\"
+    if using Air Link).\r\n      - Select your desktop from the list and then select,
+    \"Launch\". This will launch the Quest Link app, allowing you to control your
+    desktop from your headset.\r\n    - With the headset on, select \"Desktop\" from
+    the control panel in front of you. You should be able to see your desktop in
+    VR!\r\n    - Navigate to Unity and press \"Play\" - the application should launch
+    on your headset automatically.\r\n    \r\n5. To test in Editor as a guest the
+    simulator can be used\r\n   \r\n      <b>Enabling the Simulator</b>\r\n   \r\n     
+    - Select Meta -> Simulator -> Enable Simulator\r\n      - Press Play\r\n     
+    - The simulator should open a new window (<a href=\"https://developer.oculus.com/documentation/unity/xrsim-intro/\">Simulator
+    Docs</a>)\r\n   \r\n\r\n\r\n# Project Structure\r\nThe project is organically
+    structured to distinguish the main components of the MR experience's logic. A
+    breakdown of the core features is defined on the <a href=\"./Assets/CrypticCabinet/Scenes/MainScene.Unity\">Main
+    Scene</a> under the \"**CrypticCabinetLogic**\" GameObject.\r\n\r\nThe **CrypticCabinetLogic**
+    contains the following core objects:\r\n\r\n- **ColocationManager**, which is
+    responsible for colocating multiple players within the same room, and to keep
+    a single player aligned to the real room throughout the gameplay. For more information,
+    check the documentation inside the **ColocationManager** script.\r\n\r\n- **ConnectionManager**,
+    which handles the Photon Fusion connection workflows for single and multiplayer
+    sessions. The PhotonConnector logic showcases how a shared multiplayer session
+    is handled via Photon Fusion, how the creation of shared rooms and lobbies work,
+    and how the connection states can be handled accordingly.\r\n\r\n- **PassthroughManager**,
+    which is responsible for the Color LUT effects applied to the passthrough of
+    the supported Quest headsets. During the gameplay, this feature is showcased
+    when interacting with the UV machine puzzle and the light beam hitting the glass
+    globe in the Orrery puzzle. Additional functions are implemented inside the **PassthroughConfigurator**
+    and **PassthroughChanger** as an example of customized effects using Meta's Color
+    LUT APIs from the SDK.\r\n\r\n- **SceneManagement**, which holds the logic to
+    use the Scene Understanding API from the SDK to configure the virtual objects
+    placements around the real room of the player, allowing their tweaking when desired.\r\n\r\n-
+    **GameManager**, which controls the game phases flow of the gameplay.\r\n\r\n-
+    **Player**, which holds the logic for all the interactions a player can perform
+    across the whole experience. This showcases how the Meta Interaction SDK can
+    be used to simplify usability for XR scenarios.\r\n\r\n\r\n# Gameplay Phases\r\n\r\nThe
+    <a href=\"./Assets/CrypticCabinet/Scripts/GameManagement/GameManager.cs\">**GameManager**</a>
+    script controls the game phases of the gameplay. Each game phase is responsible
+    for a specific task of the game:\r\n- **ObjectSpawningGamePhase** handles the
+    scene setup via the scene understanding APIs to tweak the placements for the
+    virtual objects around the room before starting the gameplay;\r\n- **WaitForGuestPhase**
+    waits for Guest players that want to join a multiplayer game before the gameplay
+    starts;\r\n- **Act1TimelinePhase** starts the intro animation of the gameplay;\r\n-
+    **PuzzleLoadingGamePhase** spawns the interactive objects around the room after
+    the intro animation has finished playing;\r\n- **Act3TimelinePhase** starts the
+    outro animation once the gameplay completes and all puzzles are resolved.\r\n\r\n\r\n\r\n#
+    UI System\r\n\r\nThe main UI for the application is defined through the **UIModalWindow**
+    prefab, which is controlled by the UISystem script.\r\n\r\nThis script conveniently
+    defines a singleton object that any class in the game can interact with to trigger
+    UI messages and callbacks.\r\n\r\n\r\n\r\n# Getting the code\r\n\r\nFirst, ensure
+    you have Git LFS installed by running this command:\r\n\r\n```sh\r\ngit lfs install\r\n```\r\n\r\nThen,
+    clone this repo using the \"Code\" button above, or this command:\r\n\r\n```sh\r\ngit
+    clone https://github.com/oculus-samples/Unity-CrypticCabinet.git\r\n```\r\n\r\n\r\n##
+    Code documentation\r\n\r\nWithin the repo there's detailed Doxygen docs for the
+    code in <a href=\"./Documentation/docs/html/index.html\">Documentation/docs/html/index.html</a>.\r\nThis
+    can be opened in a web browser once the code has been cloned.\r\n\r\n![alt text](./Documentation/Images/Doxygen.png)\r\n\r\n\r\n#
+    Dependencies\r\nThis project makes use of the following plugins and software:\r\n\r\n-
+    <a href=\"https://unity.com/download\">Unity 2022.3.16f1</a> or newer\r\n- <a
+    href=\"https://npm.developer.oculus.com/-/web/detail/com.meta.xr.sdk.utilities\">Meta
+    XR Utilities</a>\r\n- <a href=\"https://npm.developer.oculus.com/-/web/detail/com.meta.xr.sdk.platform\">Meta
+    XR Platform SDK</a>\r\n- <a href=\"https://npm.developer.oculus.com/-/web/detail/com.meta.xr.sdk.interaction\">Meta
+    XR Interaction SDK</a>\r\n- <a href=\"https://npm.developer.oculus.com/-/web/detail/com.meta.xr.simulator\">Meta
+    XR Simulator</a> (Used for test multi-user)\r\n- <a href=\"https://assetstore.unity.com/packages/tools/integration/meta-mr-utility-kit-272450\">Mixed
+    Reality Utility Kit</a>\r\n- <a href=\"https://www.photonengine.com/fusion\">Photon
+    Fusion</a>\r\n- <a href=\"https://github.com/Cysharp/UniTask\">UniTask</a>\r\n\r\nThe
+    following is required to test this project within Unity:\r\n- <a href=\"https://www.meta.com/quest/setup/\">Meta
+    Quest Link app</a>\r\n\r\nThe majority of Cryptic Cabinet is licensed under <a
+    href=\"./LICENSE.md\">MIT LICENSE</a>, however files from <a href=\"http://www.unity3d.com/legal/licenses/Unity_Companion_License\">Text
+    Mesh Pro</a>, and <a href=\"./Assets/Photon/LICENSE.md\">Photon SDK</a>, are
+    licensed under their respective licensing terms.\r\n\r\nSee the <a href=\"./CONTRIBUTING.md\">CONTRIBUTING</a>
+    file for how to help out.\r\n\r\nThis project was built using the <a href=\"https://unity.com/\">Unity
+    engine</a> with <a href=\"https://doc.photonengine.com/fusion/current/getting-started/fusion-intro\">Photon
+    Fusion</a>.\r\n"
+  overrideMarkdownRoot: ./
