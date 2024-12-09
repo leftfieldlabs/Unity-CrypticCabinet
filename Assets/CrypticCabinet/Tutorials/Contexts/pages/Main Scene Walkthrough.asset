@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Main Scene Walkthrough
   m_EditorClassIdentifier: 
   _displayName: Main Scene Walkthrough
-  _prefix: 
+  _hierarchyName: 
   _context: {fileID: 0}
   _markdownFile: {fileID: 0}
   _priority: 0

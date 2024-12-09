@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
-  m_Name: Welcome_Cryptic Cabinet
+  m_Name: Welcome
   m_EditorClassIdentifier: 
   _displayName: Welcome
-  _prefix: 
+  _hierarchyName: Welcome
   _context: {fileID: 11400000, guid: 9e4b604f5e4997848960f9141fcfedef, type: 2}
   _markdownFile: {fileID: 0}
   _priority: 1000

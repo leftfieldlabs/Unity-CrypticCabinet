@@ -12,19 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee262462c8042e840a3146c602914c9a, type: 3}
   m_Name: TutorialReferences
   m_EditorClassIdentifier: 
-  _windowTitle: Main Scene Walkthrough
-  _logo: {fileID: 0}
-  _icon: {fileID: 0}
+  _title: Main Scene Walkthrough
   _priority: 5000
-  _allowWithoutContextFilter: 1
-  _isStartupContext: 0
-  showPageGroupTitle: 1
-  _pages: []
-  _scriptableObjectPages: []
-  _defaultPage: 
-  _parentContexts: []
   tutorialConfig: {fileID: 11400000, guid: 66782bc3cd770c0488ec65525c3adbf8, type: 2}
-  showBanner: 1
+  showBanner: 0
   references:
   - header: Main Scene
     description: 
