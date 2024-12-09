@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Feature Overview_Safe Dials
   m_EditorClassIdentifier: 
   _displayName: Safe Dials
-  _prefix: 
+  _hierarchyName: Feature Overview/Safe Dials
   _context: {fileID: 11400000, guid: 08adf0039b761b5459a65c22ffc46b45, type: 2}
   _markdownFile: {fileID: 0}
   _priority: 2000
