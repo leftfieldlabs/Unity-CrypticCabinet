@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d49e0786e61cbd4e8ed6428ec2b99df, type: 3}
   m_Name: Tutorial Config
   m_EditorClassIdentifier: 
+  navHeaderImage: {fileID: 0}
   <Name>k__BackingField: Cryptic Cabinet
   bannerConfig:
     imagePathOrURL: ./Documentation/Images/logo/HeaderImage.jpg
