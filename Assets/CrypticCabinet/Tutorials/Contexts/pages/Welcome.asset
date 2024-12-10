@@ -176,8 +176,8 @@ MonoBehaviour:
     following is required to test this project within Unity:\r\n\r\n- <a href=\"https://www.meta.com/quest/setup/\">Meta
     Quest Link app</a>\r\n\r\nThe majority of Cryptic Cabinet is licensed under <a
     href=\"./LICENSE\">MIT LICENSE</a>, however files from <a href=\"http://www.unity3d.com/legal/licenses/Unity_Companion_License\">Text
-    Mesh Pro</a>, and <a href=\"./Assets/Photon/LICENSE.md\">Photon SDK</a>, are
-    licensed under their respective licensing terms.\r\n\r\nSee the <a href=\"./CONTRIBUTING.md\">CONTRIBUTING</a>
+    Mesh Pro</a>, and <a href=\"./Assets/Photon/LICENSE\">Photon SDK</a>, are licensed
+    under their respective licensing terms.\r\n\r\nSee the <a href=\"./CONTRIBUTING.md\">CONTRIBUTING</a>
     file for how to help out.\r\n\r\nThis project was built using the <a href=\"https://unity.com/\">Unity
     engine</a> with <a href=\"https://doc.photonengine.com/fusion/current/getting-started/fusion-intro\">Photon
     Fusion</a>.\r\n"
